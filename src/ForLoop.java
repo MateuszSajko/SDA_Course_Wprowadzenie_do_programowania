@@ -1,12 +1,10 @@
-
 public class ForLoop {
     public static void main(String[] args) {
-
-        int x =3;
-        int y =3;
-
-        System.out.println(x++);
-        System.out.println(++y);
-
+        for (int i = 0; i <= 10; i++) {
+            System.out.println(i);
+            if (i==5){
+                System.out.println("Kotek");
+            }
+        }
     }
 }
